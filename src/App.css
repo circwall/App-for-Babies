@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  }
+  .nav-link{
+    border-radius: 8px;
+  }
+.nav-link:hover{
+  background: white;
+  border-radius: 8px;
+  padding: 1.5px;
+}
+
+.mt-3{
+  height: 95px;
+  
+}
+.three{
+  border-radius: 90%;
+  padding: 0% 3% ;
+}
+
+@media only screen and (min-width:1000px){
+  .mt-3{
+    height: 230px;
+  }
+  .three{
+    border-radius: 90%;
+    padding: 0% 3.2% ;
+  }
+}
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
